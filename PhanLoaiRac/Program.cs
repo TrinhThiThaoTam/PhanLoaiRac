@@ -447,7 +447,7 @@ class ChuongTrinhGame
         Console.WriteLine("\t╠══════════════════════════════════════════════════════════════════╣");
 
         Console.ForegroundColor = ConsoleColor.Yellow;
-        Console.WriteLine($"\t║ Điểm của bạn là: {tongDiem}                                         ║");
+        Console.WriteLine($"\t║ Điểm của bạn là: {tongDiem}                                              ║");
 
         if (tongDiem > diemCaoNhat)
         {
@@ -457,17 +457,17 @@ class ChuongTrinhGame
         if (tongDiem > 10)
         {
             Console.ForegroundColor = ConsoleColor.Green;
-            Console.WriteLine("\t║ Xin chúc mừng! Bạn đã nhận được 2 điểm rèn luyện.                ║");
+            Console.WriteLine("\t║ Xin chúc mừng! Bạn đã nhận được 2 điểm rèn luyện.                     ║");
         }
         else
         {
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("\t║ Rất tiếc. Bạn không nhận được điểm rèn luyện.                    ║");
+            Console.WriteLine("\t║ Rất tiếc. Bạn không nhận được điểm rèn luyện.                         ║");
         }
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("\t╠══════════════════════════════════════════════════════════════════╣");
         Console.ForegroundColor = ConsoleColor.Magenta;
-        Console.WriteLine($"\t║ ĐIỂM CAO NHẤT: {diemCaoNhat}                                        ║");
+        Console.WriteLine($"\t║ ĐIỂM CAO NHẤT: {diemCaoNhat}                                             ║");
         Console.ForegroundColor = ConsoleColor.Cyan;
         Console.WriteLine("\t╚══════════════════════════════════════════════════════════════════╝");
 
