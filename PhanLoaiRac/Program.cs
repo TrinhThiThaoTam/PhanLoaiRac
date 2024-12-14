@@ -13,7 +13,7 @@ class ChuongTrinhGame
     public static void Main()
     {
 
-        Console.OutputEncoding = Encoding.UTF8; //Gõ 
+        Console.OutputEncoding = Encoding.UTF8; //Gõ Tiếng Việt có dấu 
         Console.InputEncoding = Encoding.Unicode;
         NameGame();
         string message = "Nhấn phím bất kỳ để tiếp tục...";
